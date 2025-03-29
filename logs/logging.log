@@ -451,3 +451,318 @@ x==========x]
 [2025-03-29 19:02:48,606: INFO: main : >>>>Stage Data Transformation Stage completed <<<<<<
 
 x==========x]
+[2025-03-29 19:24:26,572: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 19:24:26,573: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 19:24:26,575: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 19:24:26,575: INFO: common : created directory at: artifacts]
+[2025-03-29 19:24:51,304: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 19:24:51,305: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 19:24:51,306: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 19:24:51,307: INFO: common : created directory at: artifacts]
+[2025-03-29 19:24:51,307: INFO: common : created directory at: artifacts/model_trainer]
+[2025-03-29 19:25:03,893: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 19:25:03,893: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 19:25:03,894: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 19:25:03,895: INFO: common : created directory at: artifacts]
+[2025-03-29 19:25:03,896: INFO: common : created directory at: artifacts/model_trainer]
+[2025-03-29 19:38:48,966: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 19:38:48,967: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 19:38:48,969: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 19:38:48,969: INFO: common : created directory at: artifacts]
+[2025-03-29 19:38:48,970: INFO: common : created directory at: artifacts/model_trainer]
+[2025-03-29 19:54:22,365: INFO: model_train : >>>>>Stage Model Training Stage started <<<<<<]
+[2025-03-29 19:54:22,367: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 19:54:22,367: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 19:54:22,368: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 19:54:22,368: INFO: common : created directory at: artifacts]
+[2025-03-29 19:54:22,368: ERROR: model_train : 'ConfigurationManager' object has no attribute 'get_model_train_config']
+Traceback (most recent call last):
+  File "/home/aditya/MLOPS/E2E-Data-Science-Project/src/DataScienceWorkflow/pipeline/model_train.py", line 26, in <module>
+    mtp.initiate_model_train()
+  File "/home/aditya/MLOPS/E2E-Data-Science-Project/src/DataScienceWorkflow/pipeline/model_train.py", line 18, in initiate_model_train
+    raise e
+  File "/home/aditya/MLOPS/E2E-Data-Science-Project/src/DataScienceWorkflow/pipeline/model_train.py", line 14, in initiate_model_train
+    model_train_config = cm.get_model_train_config()
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_model_train_config'. Did you mean: 'get_model_trainer_config'?
+[2025-03-29 19:54:41,501: INFO: model_train : >>>>>Stage Model Training Stage started <<<<<<]
+[2025-03-29 19:54:41,502: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 19:54:41,503: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 19:54:41,503: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 19:54:41,504: INFO: common : created directory at: artifacts]
+[2025-03-29 19:54:41,504: INFO: common : created directory at: artifacts/model_trainer]
+[2025-03-29 19:54:41,510: INFO: model_train : >>>>Stage Model Training Stage completed <<<<<<
+
+x==========x]
+[2025-03-29 19:54:58,931: INFO: model_train : >>>>>Stage Model Training Stage started <<<<<<]
+[2025-03-29 19:54:58,932: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 19:54:58,933: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 19:54:58,933: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 19:54:58,934: INFO: common : created directory at: artifacts]
+[2025-03-29 19:54:58,934: INFO: common : created directory at: artifacts/model_trainer]
+[2025-03-29 19:54:58,940: INFO: model_train : >>>>Stage Model Training Stage completed <<<<<<
+
+x==========x]
+[2025-03-29 20:02:37,883: INFO: model_train : >>>>>Stage Model Training Stage started <<<<<<]
+[2025-03-29 20:02:37,885: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 20:02:37,885: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 20:02:37,886: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 20:02:37,886: INFO: common : created directory at: artifacts]
+[2025-03-29 20:02:37,886: INFO: common : created directory at: artifacts/model_trainer]
+[2025-03-29 20:02:37,893: INFO: model_train : >>>>Stage Model Training Stage completed <<<<<<
+
+x==========x]
+[2025-03-29 20:02:52,541: INFO: model_train : >>>>>Stage Model Training Stage started <<<<<<]
+[2025-03-29 20:02:52,542: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 20:02:52,543: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 20:02:52,543: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 20:02:52,548: INFO: common : created directory at: artifacts]
+[2025-03-29 20:02:52,548: INFO: common : created directory at: artifacts/model_trainer]
+[2025-03-29 20:02:52,549: ERROR: model_train : [Errno 2] No such file or directory: 'artifacts/data_transformation/train.csv']
+Traceback (most recent call last):
+  File "/home/aditya/MLOPS/E2E-Data-Science-Project/src/DataScienceWorkflow/pipeline/model_train.py", line 26, in <module>
+    mtp.initiate_model_train()
+  File "/home/aditya/MLOPS/E2E-Data-Science-Project/src/DataScienceWorkflow/pipeline/model_train.py", line 18, in initiate_model_train
+    raise e
+  File "/home/aditya/MLOPS/E2E-Data-Science-Project/src/DataScienceWorkflow/pipeline/model_train.py", line 16, in initiate_model_train
+    mt.train()
+  File "/home/aditya/MLOPS/E2E-Data-Science-Project/src/DataScienceWorkflow/components/model_train.py", line 15, in train
+    train_data = pd.read_csv(self.config.train_data_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aditya/miniconda3/envs/E2E-Data-Sciene-Project/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aditya/miniconda3/envs/E2E-Data-Sciene-Project/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aditya/miniconda3/envs/E2E-Data-Sciene-Project/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aditya/miniconda3/envs/E2E-Data-Sciene-Project/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/aditya/miniconda3/envs/E2E-Data-Sciene-Project/lib/python3.12/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_transformation/train.csv'
+[2025-03-29 20:03:25,479: INFO: model_train : >>>>>Stage Model Training Stage started <<<<<<]
+[2025-03-29 20:03:25,481: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 20:03:25,481: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 20:03:25,482: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 20:03:25,482: INFO: common : created directory at: artifacts]
+[2025-03-29 20:03:25,482: INFO: common : created directory at: artifacts/model_trainer]
+[2025-03-29 20:03:25,482: ERROR: model_train : [Errno 2] No such file or directory: 'artifacts/data_transformation/train.csv']
+Traceback (most recent call last):
+  File "/home/aditya/MLOPS/E2E-Data-Science-Project/src/DataScienceWorkflow/pipeline/model_train.py", line 26, in <module>
+    mtp.initiate_model_train()
+  File "/home/aditya/MLOPS/E2E-Data-Science-Project/src/DataScienceWorkflow/pipeline/model_train.py", line 18, in initiate_model_train
+    raise e
+  File "/home/aditya/MLOPS/E2E-Data-Science-Project/src/DataScienceWorkflow/pipeline/model_train.py", line 16, in initiate_model_train
+    mt.train()
+  File "/home/aditya/MLOPS/E2E-Data-Science-Project/src/DataScienceWorkflow/components/model_train.py", line 15, in train
+    train_data = pd.read_csv(self.config.train_data_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aditya/miniconda3/envs/E2E-Data-Sciene-Project/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aditya/miniconda3/envs/E2E-Data-Sciene-Project/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aditya/miniconda3/envs/E2E-Data-Sciene-Project/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aditya/miniconda3/envs/E2E-Data-Sciene-Project/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/aditya/miniconda3/envs/E2E-Data-Sciene-Project/lib/python3.12/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/data_transformation/train.csv'
+[2025-03-29 20:03:40,809: INFO: main : >>>>>Stage Data Ingestion Stage started <<<<<<]
+[2025-03-29 20:03:40,811: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 20:03:40,811: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 20:03:40,812: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 20:03:40,812: INFO: common : created directory at: artifacts]
+[2025-03-29 20:03:40,812: INFO: common : created directory at: artifacts/data_ingestion]
+[2025-03-29 20:03:41,631: INFO: data_ingestion : artifacts/data_ingestion/data.zip downloaded! with following info Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 1F98:3E982:42D737:A6F892:67E804C4
+Accept-Ranges: bytes
+Date: Sat, 29 Mar 2025 14:33:41 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100026-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1743258821.325598,VS0,VE272
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: bed1ff858a8cc977120bbffd717c2a0a5bd2fc1e
+Expires: Sat, 29 Mar 2025 14:38:41 GMT
+Source-Age: 0
+
+]
+[2025-03-29 20:03:41,633: INFO: main : >>>>Stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-03-29 20:03:41,633: INFO: main : >>>>>Stage Data Validation Stage started <<<<<<]
+[2025-03-29 20:03:41,634: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 20:03:41,635: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 20:03:41,636: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 20:03:41,636: INFO: common : created directory at: artifacts]
+[2025-03-29 20:03:41,636: INFO: common : created directory at: artifacts/data_validation]
+[2025-03-29 20:03:41,639: INFO: main : >>>>Stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2025-03-29 20:03:41,639: INFO: main : >>>>>Stage Data Transformation Stage started <<<<<<]
+[2025-03-29 20:03:41,640: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 20:03:41,641: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 20:03:41,642: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 20:03:41,642: INFO: common : created directory at: artifacts]
+[2025-03-29 20:03:41,642: INFO: common : created directory at: artifacts/data_transformation]
+[2025-03-29 20:03:41,659: INFO: data_transformation : Splitted data into training and test sets]
+[2025-03-29 20:03:41,659: INFO: data_transformation : (1199, 12)]
+[2025-03-29 20:03:41,659: INFO: data_transformation : (400, 12)]
+[2025-03-29 20:03:41,659: INFO: main : >>>>Stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2025-03-29 20:03:41,659: INFO: main : >>>>>Stage Model Training Stage started <<<<<<]
+[2025-03-29 20:03:41,659: ERROR: main : ModelTrainer.__init__() missing 1 required positional argument: 'config']
+Traceback (most recent call last):
+  File "/home/aditya/MLOPS/E2E-Data-Science-Project/main.py", line 48, in <module>
+    mt = ModelTrainer()
+         ^^^^^^^^^^^^^^
+TypeError: ModelTrainer.__init__() missing 1 required positional argument: 'config'
+[2025-03-29 20:04:29,707: INFO: main : >>>>>Stage Data Ingestion Stage started <<<<<<]
+[2025-03-29 20:04:29,708: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 20:04:29,708: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 20:04:29,709: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 20:04:29,709: INFO: common : created directory at: artifacts]
+[2025-03-29 20:04:29,710: INFO: common : created directory at: artifacts/data_ingestion]
+[2025-03-29 20:04:29,710: INFO: data_ingestion : File already exists]
+[2025-03-29 20:04:29,711: INFO: main : >>>>Stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-03-29 20:04:29,711: INFO: main : >>>>>Stage Data Validation Stage started <<<<<<]
+[2025-03-29 20:04:29,712: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 20:04:29,712: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 20:04:29,713: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 20:04:29,713: INFO: common : created directory at: artifacts]
+[2025-03-29 20:04:29,713: INFO: common : created directory at: artifacts/data_validation]
+[2025-03-29 20:04:29,716: INFO: main : >>>>Stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2025-03-29 20:04:29,716: INFO: main : >>>>>Stage Data Transformation Stage started <<<<<<]
+[2025-03-29 20:04:29,718: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 20:04:29,718: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 20:04:29,719: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 20:04:29,719: INFO: common : created directory at: artifacts]
+[2025-03-29 20:04:29,720: INFO: common : created directory at: artifacts/data_transformation]
+[2025-03-29 20:04:29,737: INFO: data_transformation : Splitted data into training and test sets]
+[2025-03-29 20:04:29,738: INFO: data_transformation : (1199, 12)]
+[2025-03-29 20:04:29,738: INFO: data_transformation : (400, 12)]
+[2025-03-29 20:04:29,738: INFO: main : >>>>Stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2025-03-29 20:04:29,738: INFO: main : >>>>>Stage Model Training Stage started <<<<<<]
+[2025-03-29 20:04:29,738: ERROR: main : ModelTrainer.__init__() missing 1 required positional argument: 'config']
+Traceback (most recent call last):
+  File "/home/aditya/MLOPS/E2E-Data-Science-Project/main.py", line 48, in <module>
+    mt = ModelTrainer()
+         ^^^^^^^^^^^^^^
+TypeError: ModelTrainer.__init__() missing 1 required positional argument: 'config'
+[2025-03-29 20:06:19,111: INFO: model_train : >>>>>Stage Model Training Stage started <<<<<<]
+[2025-03-29 20:06:19,113: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 20:06:19,113: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 20:06:19,114: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 20:06:19,114: INFO: common : created directory at: artifacts]
+[2025-03-29 20:06:19,114: INFO: common : created directory at: artifacts/model_trainer]
+[2025-03-29 20:06:19,120: INFO: model_train : >>>>Stage Model Training Stage completed <<<<<<
+
+x==========x]
+[2025-03-29 20:06:39,555: INFO: main : >>>>>Stage Data Ingestion Stage started <<<<<<]
+[2025-03-29 20:06:39,556: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 20:06:39,557: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 20:06:39,557: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 20:06:39,558: INFO: common : created directory at: artifacts]
+[2025-03-29 20:06:39,558: INFO: common : created directory at: artifacts/data_ingestion]
+[2025-03-29 20:06:39,558: INFO: data_ingestion : File already exists]
+[2025-03-29 20:06:39,559: INFO: main : >>>>Stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-03-29 20:06:39,559: INFO: main : >>>>>Stage Data Validation Stage started <<<<<<]
+[2025-03-29 20:06:39,560: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 20:06:39,560: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 20:06:39,561: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 20:06:39,561: INFO: common : created directory at: artifacts]
+[2025-03-29 20:06:39,561: INFO: common : created directory at: artifacts/data_validation]
+[2025-03-29 20:06:39,565: INFO: main : >>>>Stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2025-03-29 20:06:39,565: INFO: main : >>>>>Stage Data Transformation Stage started <<<<<<]
+[2025-03-29 20:06:39,566: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 20:06:39,567: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 20:06:39,568: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 20:06:39,568: INFO: common : created directory at: artifacts]
+[2025-03-29 20:06:39,568: INFO: common : created directory at: artifacts/data_transformation]
+[2025-03-29 20:06:39,587: INFO: data_transformation : Splitted data into training and test sets]
+[2025-03-29 20:06:39,587: INFO: data_transformation : (1199, 12)]
+[2025-03-29 20:06:39,587: INFO: data_transformation : (400, 12)]
+[2025-03-29 20:06:39,587: INFO: main : >>>>Stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2025-03-29 20:06:39,587: INFO: main : >>>>>Stage Model Training Stage started <<<<<<]
+[2025-03-29 20:06:39,587: ERROR: main : ModelTrainer.__init__() missing 1 required positional argument: 'config']
+Traceback (most recent call last):
+  File "/home/aditya/MLOPS/E2E-Data-Science-Project/main.py", line 48, in <module>
+    mt = ModelTrainer()
+         ^^^^^^^^^^^^^^
+TypeError: ModelTrainer.__init__() missing 1 required positional argument: 'config'
+[2025-03-29 20:08:22,543: INFO: main : >>>>>Stage Data Ingestion Stage started <<<<<<]
+[2025-03-29 20:08:22,544: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 20:08:22,544: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 20:08:22,545: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 20:08:22,545: INFO: common : created directory at: artifacts]
+[2025-03-29 20:08:22,545: INFO: common : created directory at: artifacts/data_ingestion]
+[2025-03-29 20:08:22,545: INFO: data_ingestion : File already exists]
+[2025-03-29 20:08:22,546: INFO: main : >>>>Stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-03-29 20:08:22,546: INFO: main : >>>>>Stage Data Validation Stage started <<<<<<]
+[2025-03-29 20:08:22,547: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 20:08:22,548: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 20:08:22,549: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 20:08:22,549: INFO: common : created directory at: artifacts]
+[2025-03-29 20:08:22,549: INFO: common : created directory at: artifacts/data_validation]
+[2025-03-29 20:08:22,552: INFO: main : >>>>Stage Data Validation Stage completed <<<<<<
+
+x==========x]
+[2025-03-29 20:08:22,552: INFO: main : >>>>>Stage Data Transformation Stage started <<<<<<]
+[2025-03-29 20:08:22,554: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 20:08:22,554: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 20:08:22,555: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 20:08:22,556: INFO: common : created directory at: artifacts]
+[2025-03-29 20:08:22,556: INFO: common : created directory at: artifacts/data_transformation]
+[2025-03-29 20:08:22,573: INFO: data_transformation : Splitted data into training and test sets]
+[2025-03-29 20:08:22,573: INFO: data_transformation : (1199, 12)]
+[2025-03-29 20:08:22,573: INFO: data_transformation : (400, 12)]
+[2025-03-29 20:08:22,573: INFO: main : >>>>Stage Data Transformation Stage completed <<<<<<
+
+x==========x]
+[2025-03-29 20:08:22,573: INFO: main : >>>>>Stage Model Training Stage started <<<<<<]
+[2025-03-29 20:08:22,575: INFO: common : Yaml File: config/config.yaml loaded successfully]
+[2025-03-29 20:08:22,576: INFO: common : Yaml File: params.yaml loaded successfully]
+[2025-03-29 20:08:22,577: INFO: common : Yaml File: schema.yaml loaded successfully]
+[2025-03-29 20:08:22,577: INFO: common : created directory at: artifacts]
+[2025-03-29 20:08:22,577: INFO: common : created directory at: artifacts/model_trainer]
+[2025-03-29 20:08:22,582: INFO: main : >>>>Stage Model Training Stage completed <<<<<<
+
+x==========x]
