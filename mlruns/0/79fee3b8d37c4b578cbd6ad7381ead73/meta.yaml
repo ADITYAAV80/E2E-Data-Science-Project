@@ -1,0 +1,15 @@
+artifact_uri: file:///home/aditya/MLOPS/E2E-Data-Science-Project/mlruns/0/79fee3b8d37c4b578cbd6ad7381ead73/artifacts
+end_time: 1743268422264
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 79fee3b8d37c4b578cbd6ad7381ead73
+run_name: mysterious-duck-246
+run_uuid: 79fee3b8d37c4b578cbd6ad7381ead73
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743268419675
+status: 3
+tags: []
+user_id: aditya
