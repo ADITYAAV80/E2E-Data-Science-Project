@@ -7,3 +7,9 @@ class DataIngestionConfig(BaseModel):
     local_datafile: Path
     unzip_dir: Path
 
+class DataValidationConfig(BaseModel):
+
+    root_dir: Path
+    STATUS_FILE: str
+    unzip_data_dir: Path
+    all_schema: dict

@@ -2,8 +2,8 @@ from src.DataScienceWorkflow import logger
 from urllib import request
 import zipfile
 import os
-from src.DataScienceWorkflow.entity.config_entity import DataIngestionConfig
-
+from src.DataScienceWorkflow.entity.config_entity import DataIngestionConfig,DataValidationConfig
+import pandas as pd
 
 class DataIngestion:
 
@@ -27,3 +27,6 @@ class DataIngestion:
         os.makedirs(unzip_path,exist_ok=True)
         with zipfile.ZipFile(self.config.local_datafile,'r') as zip_ref:
             zip_ref.extractall(unzip_path)
+
+
+

@@ -6,3 +6,14 @@ data_ingestion:
     source_url: https://github.com/krishnaik06/datasets/raw/refs/heads/main/winequality-data.zip ## url from where to download data
     local_datafile: artifacts/data_ingestion/data.zip ## where zip file should be saved
     unzip_dir: artifacts/data_ingestion ## data ingestion
+
+data_validation:
+    root_dir: artifacts/data_validation #root directoy for validation tasks
+    unzip_data_dir: artifacts/data_ingestion/winequality-red.csv ## it's already thrre in data ingestion file
+    STATUS_FILE: artifacts/data_validation/status.txt ##status tru or false
+
+data_transformation:
+    root_dir: artifacts/data_transformation
+    data_path: artifacts/data_ingestion/winequality-red.csv
+
+    
