@@ -1,0 +1,8 @@
+## we will refer to this to create artifacts directory
+artifacts_root: artifacts
+
+data_ingestion:
+    root_dir: artifacts/data_ingestion ## root directory
+    source_url: https://github.com/krishnaik06/datasets/raw/refs/heads/main/winequality-data.zip ## url from where to download data
+    local_datafile: artifacts/data_ingestion/data.zip ## where zip file should be saved
+    unzip_dir: artifacts/data_ingestion ## data ingestion

@@ -38,6 +38,7 @@ list_of_files = [
     # Configuration & Parameter Files
     "config/config.yaml",  # Stores general project configuration settings
     "params.yaml",  # Contains hyperparameters or runtime-specific parameters
+    "schema.yaml"   # Contains schema
 
     # Main Application Files
     "main.py",  # Entry point for the application

@@ -1,14 +1,14 @@
 from src.DataScienceWorkflow import logger
-from src.DataScienceWorkflow.utils.common import (
-    read_yaml,
-    create_directories,
-    save_json,
-    load_json)
+from src.DataScienceWorkflow.pipeline.data_ingestion import DataIngestionTrainingPipeline
 
-logger.info("Welcome to custom logging data science")
+STAGE_NAME = "Data Ingestion Stage"
 
-logger.info(read_yaml("params.yaml"))
+try:
+    logger.info(f">>>>>Stage {STAGE_NAME} started <<<<<<")
+    ditp = DataIngestionTrainingPipeline()
+    ditp.initiate_data_ingestion()
+    logger.info(f">>>>Stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
 
-create_directories(["abc"])
-save_json("abc/mike.json", {"mike": "test"})
-print(load_json("abc/mike.json"))
+except Exception as e:
+    logger.exception(e)
+    raise e
