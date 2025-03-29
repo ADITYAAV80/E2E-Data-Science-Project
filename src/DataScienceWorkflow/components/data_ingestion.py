@@ -2,7 +2,7 @@ from src.DataScienceWorkflow import logger
 from urllib import request
 import zipfile
 import os
-from src.DataScienceWorkflow.entity.config_entity import DataIngestionConfig,DataValidationConfig
+from src.DataScienceWorkflow.entity.config_entity import DataIngestionConfig
 import pandas as pd
 
 class DataIngestion:

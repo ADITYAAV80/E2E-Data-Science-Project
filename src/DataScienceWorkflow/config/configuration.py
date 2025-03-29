@@ -3,7 +3,8 @@ from src.DataScienceWorkflow.utils.common import read_yaml,create_directories
 from box import Box
 from src.DataScienceWorkflow.entity.config_entity import (
     DataIngestionConfig,
-    DataValidationConfig
+    DataValidationConfig,
+    DataTransformationConfig
 )
 
 class ConfigurationManager:
