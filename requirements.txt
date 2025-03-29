@@ -5,3 +5,4 @@ matplotlib
 python-box
 pydantic
 PyYAML
+mlflow
